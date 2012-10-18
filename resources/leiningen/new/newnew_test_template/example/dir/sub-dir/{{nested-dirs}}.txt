@@ -1,0 +1,6 @@
+Raw Name: {{raw-name}}
+Name: {{name}}
+Namespace: {{namespace}}
+Nested Dirs: {{nested-dirs}}
+Year: {{year}} 
+Msg: {{msg}} 
