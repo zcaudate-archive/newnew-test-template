@@ -27,10 +27,10 @@
       :render-files [["example/render-files/{{name}}.txt"]
                      ["example/render-files/{{name}}.txt"] 
                      ["example/render-files/render.txt"]]
-      :new-dirs     [["scratch"]
+      :make-dirs     [["scratch"]
                      ["example/new-dirs/dir1"] 
                      ["example/new-dirs/dir2"]]
-      :create-files [["example/create-files/{{name}}/empty.txt"]
-                     [(input-stream "http://www.google.com") "example/create-files/{{name}}/inputstream.txt"]
+      :make-files   [["" "example/create-files/{{name}}/empty.txt"]
+                     [(input-stream "http://www.google.com") "example/create-files/{{name}}/google.html"]
                      ["hello {{name}} is not rendered"  "example/create-files/{{name}}/string.txt"]]}
 })
